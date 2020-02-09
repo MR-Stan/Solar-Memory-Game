@@ -43,16 +43,15 @@ class App extends Component {
   render() {
     const shuffled = shuffle(this.state.solarBodies);
     return (
-      <Card>
+      <Card className='blackBG whiteText'>
         <CardBody className='text-center'>
-          <CardTitle>Welcome</CardTitle>
-          <CardSubtitle>Instructions</CardSubtitle>
+          <CardTitle className='title'>Solar Memory Click Game</CardTitle>
+          <CardSubtitle className='subtitle'>Click on solar bodies to earn points, but don't click the same body more than once or you lose!</CardSubtitle>
           <ScoreCard score={this.state.score} highScore={this.state.highScore} />
           <Container>
             <Row>
-
               {shuffled.map(item => (
-                <Col xs='12' sm='6' md='4' lg='3' xl='2'>
+                <Col xs='12' sm='6' md='4' lg='3'>
                   <SolarBodyCard
                     key={item.id}
                     id={item.id}

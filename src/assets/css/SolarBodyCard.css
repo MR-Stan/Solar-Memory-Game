@@ -1,2 +1,11 @@
+.SolarBodyCard {
+    color: white;
+    background-color: black;
+    font-size: 1.9rem;
+    margin: 0 10px 10px 10px;    
+    border-radius: 5px;
+}
 
-
+.SolarBodyCard:hover {
+    filter: brightness(140%);
+}

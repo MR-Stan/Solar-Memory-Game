@@ -6,8 +6,8 @@ import '../assets/css/ScoreCard.css'
 
 const ScoreCard = props => {
     return (
-        <Card onClick={() => props.onImgClick(props.id)}>
-            <CardBody>
+        <Card>
+            <CardBody className='scorecard'>
                 <CardText>Score: {props.score}</CardText>
                 <CardText>High Score: {props.highScore}</CardText>
             </CardBody>
