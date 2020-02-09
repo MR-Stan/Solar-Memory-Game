@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Clicky-Game/static/css/main.0a7e68ac.chunk.css",
+    "main.js": "/Clicky-Game/static/js/main.e94b87ce.chunk.js",
+    "main.js.map": "/Clicky-Game/static/js/main.e94b87ce.chunk.js.map",
+    "runtime-main.js": "/Clicky-Game/static/js/runtime-main.da6617cf.js",
+    "runtime-main.js.map": "/Clicky-Game/static/js/runtime-main.da6617cf.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/Clicky-Game/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.cbe511fc.chunk.js": "/Clicky-Game/static/js/2.cbe511fc.chunk.js",
+    "static/js/2.cbe511fc.chunk.js.map": "/Clicky-Game/static/js/2.cbe511fc.chunk.js.map",
+    "index.html": "/Clicky-Game/index.html",
+    "precache-manifest.16bf731585489da565d9da1025f53923.js": "/Clicky-Game/precache-manifest.16bf731585489da565d9da1025f53923.js",
+    "service-worker.js": "/Clicky-Game/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/Clicky-Game/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.0a7e68ac.chunk.css.map": "/Clicky-Game/static/css/main.0a7e68ac.chunk.css.map",
+    "static/js/2.cbe511fc.chunk.js.LICENSE.txt": "/Clicky-Game/static/js/2.cbe511fc.chunk.js.LICENSE.txt",
+    "static/media/ceres.jpg": "/Clicky-Game/static/media/ceres.9bcb5e5a.jpg",
+    "static/media/earth.jpg": "/Clicky-Game/static/media/earth.92dce846.jpg",
+    "static/media/eris.jpg": "/Clicky-Game/static/media/eris.37643780.jpg",
+    "static/media/haumea.jpg": "/Clicky-Game/static/media/haumea.1bec68ba.jpg",
+    "static/media/jupiter.jpg": "/Clicky-Game/static/media/jupiter.ae13ff67.jpg",
+    "static/media/luna.jpg": "/Clicky-Game/static/media/luna.8d02df8e.jpg",
+    "static/media/makemake.jpg": "/Clicky-Game/static/media/makemake.0d30febc.jpg",
+    "static/media/mars.jpg": "/Clicky-Game/static/media/mars.3ee6a1fe.jpg",
+    "static/media/mercury.jpg": "/Clicky-Game/static/media/mercury.ddf30d51.jpg",
+    "static/media/milkyway.jpg": "/Clicky-Game/static/media/milkyway.a765b237.jpg",
+    "static/media/neptune.jpg": "/Clicky-Game/static/media/neptune.4fb8677f.jpg",
+    "static/media/pluto.jpg": "/Clicky-Game/static/media/pluto.9d0db0be.jpg",
+    "static/media/saturn.jpg": "/Clicky-Game/static/media/saturn.321278ae.jpg",
+    "static/media/sun.jpg": "/Clicky-Game/static/media/sun.1063e31e.jpg",
+    "static/media/uranus.jpg": "/Clicky-Game/static/media/uranus.e47676a0.jpg",
+    "static/media/venus.jpg": "/Clicky-Game/static/media/venus.8899383b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da6617cf.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.cbe511fc.chunk.js",
+    "static/css/main.0a7e68ac.chunk.css",
+    "static/js/main.e94b87ce.chunk.js"
+  ]
+}
