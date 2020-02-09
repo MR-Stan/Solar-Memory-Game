@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "name": "Sun",
+        "image": "./assets/images/sun.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Mercury",
+        "image": "./assets/images/mercury.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Venus",
+        "image": "./assets/images/venus.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Earth",
+        "image": "./assets/images/earth.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Mars",
+        "image": "./assets/images/mars.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Jupiter",
+        "image": "./assets/images/jupiter.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Saturn",
+        "image": "./assets/images/saturn.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Uranus",
+        "image": "./assets/images/uranus.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Neptune",
+        "image": "./assets/images/neptune.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Ceres",
+        "image": "./assets/images/ceres.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Pluto",
+        "image": "./assets/images/pluto.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Haumea",
+        "image": "./assets/images/haumea.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Makemake",
+        "image": "./assets/images/makemake.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Eris",
+        "image": "./assets/images/eris.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Luna",
+        "image": "./assets/images/luna.jpg"
+    }
+]
