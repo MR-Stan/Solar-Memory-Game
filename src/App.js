@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-  Card, CardImg, CardBody, CardTitle, CardSubtitle
+  Card, CardBody, CardTitle, CardSubtitle, Container, Row, Col
 } from 'reactstrap';
 import solarBodies from './solarBodies.json'
 import './assets/css/App.css';
@@ -43,25 +43,29 @@ class App extends Component {
   render() {
     const shuffled = shuffle(this.state.solarBodies);
     return (
-      <div>
-        <Card>
-          <CardImg></CardImg>
-          <CardBody>
-            <CardTitle>Welcome</CardTitle>
-            <CardSubtitle>Instructions</CardSubtitle>
-            <ScoreCard score={this.state.score} highScore={this.state.highScore} />
-            {shuffled.map(item => (
-              <SolarBodyCard
-                key={item.id}
-                id={item.id}
-                image={require('./assets/images' + item.image)}
-                name={item.name}
-                onImgClick={() => this.oLetsDoIt(item.id)}
-              />
-            ))}
-          </CardBody>
-        </Card>
-      </div>
+      <Card>
+        <CardBody className='text-center'>
+          <CardTitle>Welcome</CardTitle>
+          <CardSubtitle>Instructions</CardSubtitle>
+          <ScoreCard score={this.state.score} highScore={this.state.highScore} />
+          <Container>
+            <Row>
+
+              {shuffled.map(item => (
+                <Col xs='12' sm='6' md='4' lg='3' xl='2'>
+                  <SolarBodyCard
+                    key={item.id}
+                    id={item.id}
+                    image={require('./assets/images' + item.image)}
+                    name={item.name}
+                    onImgClick={() => this.oLetsDoIt(item.id)}
+                  />
+                </Col>
+              ))}
+            </Row>
+          </Container>
+        </CardBody>
+      </Card>
     )
   }
 
