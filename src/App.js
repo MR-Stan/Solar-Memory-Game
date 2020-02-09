@@ -1,30 +1,36 @@
 import React, { Component } from 'react';
 import {
-  Card, CardImg, CardText, CardBody, CardTitle,
+  Card, CardImg, CardBody, CardTitle, CardSubtitle
 } from 'reactstrap';
 import solarBodies from './solarBodies.json'
 import './assets/css/App.css';
+import SolarBodyCard from './components/SolarBodyCard.jsx';
+import ScoreCard from './components/ScoreCard.jsx'
 
 class App extends Component {
   // setting initial state
   state = {
-    solarBodies, // importing json data
-    clicked: [], // keeps track of what's been clicked 
-    score: 0, // score counter
-    highScore: 0 // high score counter
+    // importing json data
+    solarBodies,
+    // what's been clicked
+    clicked: [],
+    // score counter
+    score: 0,
+    // high score counter
+    highScore: 0
   }
 
   oLetsDoIt = id => {
     if (!this.state.clicked.includes(id)) {
       this.state.clicked.push(id);
       this.setState({
-        score: this.state.score + 1,
-        highScore: function () {
-          if (this.score > this.state.highScore) {
-            return this.score;
-          }
-        }
+        score: this.state.score + 1
       });
+      if (this.state.score >= this.state.highScore) {
+        this.setState({
+          highScore: this.state.score + 1
+        });
+      }
     }
     else {
       this.setState({
@@ -42,12 +48,16 @@ class App extends Component {
           <CardImg></CardImg>
           <CardBody>
             <CardTitle>Welcome</CardTitle>
-            <CardText>Instructions</CardText>
+            <CardSubtitle>Instructions</CardSubtitle>
+            <ScoreCard score={this.state.score} highScore={this.state.highScore} />
             {shuffled.map(item => (
-              <Card key={item.id + 1}>
-                <CardImg key={item.id} src={item.image}></CardImg>
-                {<CardText key={item.id - 1}>Test</CardText>}
-              </Card>
+              <SolarBodyCard
+                key={item.id}
+                id={item.id}
+                image={require('./assets/images' + item.image)}
+                name={item.name}
+                onImgClick={() => this.oLetsDoIt(item.id)}
+              />
             ))}
           </CardBody>
         </Card>
