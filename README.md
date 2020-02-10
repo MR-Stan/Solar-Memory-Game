@@ -1,8 +1,8 @@
 # Solar Memory Click Game
 
-![alt text](./public/cover.jpg)
+<img src='./public/cover.JPG'/>
 
-## Deployed @: https://mr-stan.github.io/Clicky-Game/
+### Deployed @: https://mr-stan.github.io/Clicky-Game/
 
 ### Built with:
 * ReactJS
